@@ -2,14 +2,14 @@
     border: 1px solid #ccc;
     padding: 4px;
     border-radius: 4px;
-    align-items: center;
-    align-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .navigation {
     display: flex;
     list-style: none;
-    gap: 1vw;
+    gap: 1rem;
 }
 
 .navigation a:hover {
