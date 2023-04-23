@@ -1,17 +1,19 @@
 .header {
-    border: 1px solid #ccc;
-    padding: 4px;
-    border-radius: 4px;
     display: flex;
-    justify-content: center;
     margin: 0 auto;
 }
 
 .navigation {
-    margin-left: min(10vw, 10rem);
+    min-width: fit-content;
+    margin-right: 1rem;
+    margin-left:  1rem;
+    padding: 1rem;
     display: flex;
+    border: 1px solid #ccc;
+    border-radius: 4px;
     list-style: none;
     gap: 1rem;
+    align-items: center;
 }
 
 .navigation a:hover {

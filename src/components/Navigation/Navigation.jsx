@@ -1,6 +1,8 @@
 import Link from 'next/link'
 import styles from './Navigation.module.css'
-import '../styles/globals.css'
+import Image from 'next/image'
+import logo from '/public/logo.png'
+import '../../styles/globals.css'
 
 
 const links = [
@@ -46,6 +48,11 @@ export function Navigation() {
     <header className={styles.header}>
       <nav>
         <ul className={styles.navigation}>
+        <Image
+          src={logo}
+          width={50}
+          height={70}
+         />
           {links.map(({ label, route, color}) => (
             <li key={route} style={{color}}>
               <Link href={route}>
