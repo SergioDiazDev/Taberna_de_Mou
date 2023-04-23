@@ -1,23 +1,32 @@
 html,
-body {
-  padding: 0;
-  margin: 0;
-  max-width: 100vw;
-}
 
 body {
   align-items: center;
   align-content: center;
-  margin: 0 auto;
 }
 
 a {
   color: inherit;
+  font-size: larger;
   text-decoration: none;
 }
 
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
+
   }
+}
+
+/* Colors */
+:root {
+  --color-futbol: #D8F6CE;
+  --color-f1: #FAAC58;
+  --color-baloncesto: #F5A9F2;
+  --color-series: #D8D8D8;
+  --color-peliculas: #D0A9F5;
+  --color-varios: #A9F5F2;
+  --color-primario: #0B5345;
+  --color-secundario: #A9F5F2;
+  --color-terciario: #D8F6CE;
 }
