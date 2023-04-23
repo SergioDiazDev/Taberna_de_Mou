@@ -6,9 +6,30 @@ const links =[{
   route: '/',
 },
 {
-  label: 'About',
-  route: '/about',
-}]
+  label: 'Futbol',
+  route: '/futbol',
+},
+{
+  label: 'F1',
+  route: '/f1',
+},
+{
+  label: 'Baloncesto',
+  route: '/baloncesto',
+},
+{
+  label: 'Series',
+  route: '/series',
+},
+{
+  label: 'Películas',
+  route: '/peliculas',
+},
+{
+  label: 'Varios',
+  route: '/varios',
+}
+]
 
 export  function Navigation() {
    return  (
