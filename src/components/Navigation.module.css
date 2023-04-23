@@ -2,12 +2,14 @@
     border: 1px solid #ccc;
     padding: 4px;
     border-radius: 4px;
+    align-items: center;
+    align-content: center;
 }
 
 .navigation {
     display: flex;
     list-style: none;
-    gap: 32px;
+    gap: 1vw;
 }
 
 .navigation a:hover {
