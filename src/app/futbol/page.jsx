@@ -1,7 +1,11 @@
-export default function FutbolPage() {
+import { ListOfPostsFutbol } from "./ListOfPostsFutbol";
+
+export default function FutbolPage ({params})
+{
+
     return (
-      <div>
-        <h1>Futbol</h1>
-      </div>
-    );
-  }
+        <section>
+            <ListOfPostsFutbol />
+        </section>
+    )
+}
