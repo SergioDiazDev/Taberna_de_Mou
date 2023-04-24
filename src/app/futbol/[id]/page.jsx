@@ -1,11 +1,7 @@
 'use client'
 const fetchFutbolPost = (id) => 
 {
-    return fetch(`https://jsonplaceholder.typicode.com/posts/${id}`, {
-        next: {
-            revalidate: 60
-        }
-    })
+    return fetch(`https://jsonplaceholder.typicode.com/posts/${id}`)
         .then(res => res.json())
 }
 
