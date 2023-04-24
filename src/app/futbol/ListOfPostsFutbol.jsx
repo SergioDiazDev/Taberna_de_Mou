@@ -12,7 +12,7 @@ export async function ListOfPostsFutbol ()
 
     return ( posts.slice(0, 5).map(post =>(
         <article key={post.id}>
-            <div onClick={() => location.href=`futbol/${post.id}`}> 
+            <div onClick={() => location.href='futbol/'+ post.id}> 
                 <h1 style={{color: 'var(--color-futbol)'}}>{post.title}</h1>
                 <p>{post.body}</p>
             </div>
